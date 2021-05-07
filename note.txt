@@ -1,0 +1,2 @@
+If you use the <Image /> next.js component with a source 'src' that is an outside url.
+Actually have to add it to a  next.config.js file in root.
