@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Search from './Search';
 import styles from '@/styles/Header.module.scss'
 
 const Header = () => {
@@ -11,11 +12,18 @@ const Header = () => {
                 </Link>
             </div>
 
+            <Search />
+
             <nav>
                 <ul>
                     <li>
                         <Link href='/events'>
                             <a>Events</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href='/events/add'>
+                            <a>Add Post</a>
                         </Link>
                     </li>
                 </ul>
